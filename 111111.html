@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名單收集頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #ff5040;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>立即領取免費花材搭配指南</h1>
+        <p>幫助您挑選適合送禮或家居裝飾的花束，讓您的家煥然一新！</p>
+        <form>
+            <div class="form-group">
+                <label for="name">姓名</label>
+                <input type="text" id="name" placeholder="請輸入您的姓名" required>
+            </div>
+            <div class="form-group">
+                <label for="email">電子郵件</label>
+                <input type="email" id="email" placeholder="請輸入您的電子郵件" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">電話號碼（選填）</label>
+                <input type="tel" id="phone" placeholder="請輸入您的電話號碼">
+            </div>
+            <button type="submit">立即領取</button>
+        </form>
+    </div>
+</body>
+</html>
